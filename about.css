@@ -1,0 +1,287 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+  background: #020617;
+}
+
+
+body {
+  min-height: 100%;
+  font-family: "Atkinson Hyperlegible Mono", sans-serif;
+  overscroll-behavior: none;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(12px);
+  padding: 15px 40px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.head {
+  color: #f1f5f9;
+  padding-left: 20px;
+  font-size: 24px;
+  
+}
+
+.nav {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  transition: 0.3s;
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo {
+ height: 65px;
+  width: 65px;
+  object-fit: contain;
+  transform: scale(1.2);
+  border-radius: 80px;
+}
+
+.nav a:hover {
+  color: white;
+}
+
+.btns {
+  display: flex;
+  gap: 12px;
+}
+.btn {
+  padding: 12px 26px;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.login {
+ background: #00BFFF;
+  margin-left: 50px;
+  color: white;
+}
+
+.login:hover {
+box-shadow: 0 0 15px rgba(0, 191, 255, 0.6);
+  transform: translateY(-3px);
+}
+
+.register {
+background: #00BFFF;
+  margin-left: 30px;
+  color: white;
+}
+
+.register:hover {
+  box-shadow: 0 0 15px rgba(0, 191, 255, 0.6);
+  transform: translateY(-3px);
+}
+.footer {
+  margin-top: auto;
+  background-color: #020617;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+  border-top: 1px solid #1f2933;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: auto;
+  margin: auto;
+}
+
+.footer-col {
+  flex: 1;                   
+  padding: 20px 20px;
+}
+
+.abc{
+  display: flex;
+  padding-top: 0;
+  padding-left: 10px;
+}
+.b{
+  display: flex;
+  flex-direction:column;
+  gap: 15px;
+  align-items: center; 
+  
+}
+
+.link{
+  
+  text-decoration: none;
+  color: #94a3b8;
+  
+}
+
+.link:hover{
+  color: white;
+}
+
+.footer-logo {
+  font-size: 24px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.footer-text {
+  color: #cbd5e1;
+  margin-top: 20px;
+  
+  width: 350px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 20px;
+ 
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #94a3b8;
+  transition: 0.3s;
+}
+
+.footer-links a:hover {
+  color: white;
+}
+
+.footer-copy {
+  margin-top: 50px;
+  font-size: 14px;
+  color: #64748b;
+}
+.jello{
+    color: black;
+    padding-top: 70px;
+    padding-left: 50px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size:xx-large;
+}
+.top{
+    height: 400px;
+    width: 100%;
+   background-color: #f7f3eb;
+   display: flex;
+   padding-top: 100px;
+}
+.mello{
+    padding-left: 30px;
+    padding-top: 30px;
+    max-width: 50%;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.dog{
+    height: 200px;
+    width: auto;
+   padding-left: 130px;
+}
+
+.mid{
+    height: 450px;
+    width: 100%;
+    background-color:#fafaf7;
+    display: flex;
+    padding-top: 100px;
+
+}
+.cat{
+    height: 250px;
+    width: 400px;
+    padding-left: 90px;
+}
+.horse{
+    height: 200px;
+    width: auto;
+    padding-left: 200px;
+}
+.egg{
+     max-width: 50%;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 30px;
+    
+}
+
+.dunk{
+    padding-top: 70px;
+    padding-left: 50px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size:xx-large;
+}
+.bot{
+     height: 400px;
+    width: 100%;
+   background-color: #f7f3eb;
+   display: flex;
+   padding-top: 100px;
+}
+.baelor{
+    padding-top: 70px;
+    padding-left: 50px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size:xx-large;
+}
+.maekar{
+    max-width: 50%;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 30px;
+}
+.line{
+backdrop-filter: blur(12px);
+border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+margin-top: 30px;
+}
+
+.tact{
+  display: flex;
+  flex-direction:column;
+  gap: 15px;
+  align-items: center;
+}
+
+.connect{
+  text-decoration: none;
+  color: #94a3b8;
+}
+
+.connect:hover{
+  color: white;
+}
+
+.name-logo{
+  padding-left: 100px;
+}
+
+.neuro{
+  height: 65px;
+  width: 65px;
+  object-fit: contain;
+  transform: scale(1.2);
+  border-radius: 80px;
+}
